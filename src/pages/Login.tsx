@@ -1,5 +1,5 @@
 import React from "react";
-import { auth, googleProvider } from "../../firebase/config";
+import { auth, googleProvider } from "../firebase/config";
 import { signInWithPopup } from "firebase/auth";
 
 export default function Login() {
